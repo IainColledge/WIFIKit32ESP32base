@@ -117,3 +117,6 @@ dmypy.json
 
 # Pycharm
 .idea/
+
+# Micropython
+wifi_config.py
