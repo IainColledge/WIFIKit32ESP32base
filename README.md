@@ -16,6 +16,6 @@ password = "Your wifi password"
 
 Do not add to git and this allows for local config without sharing your secrets on Github.
 
-###Notes
+##Notes
 
 The ssd1306 built in library doesn't seem to be in the image for micropython 1.10, hence included here.
