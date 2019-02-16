@@ -17,7 +17,7 @@ def do_connect():
     if not sta_if.isconnected():
         print('connecting to network...')
         sta_if.active(True)
-        sta_if.connect(wifi_config.config["ssid"], wifi_config.config["password"])
+        sta_if.connect(wifi_config.ssid, wifi_config.password)
         ap_if.active(False)
         while not sta_if.isconnected():
             pass
