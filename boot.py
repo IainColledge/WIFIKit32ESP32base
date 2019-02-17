@@ -38,8 +38,9 @@ def do_connect():
         ip = network.WLAN(network.STA_IF).ifconfig()[0]
 
         oled.fill(0)
-        oled.text('SSID: ' + wifi_config.ssid, 0, 0)
-        oled.text('IP: ' + ip, 0, 10)
+        oled.text('Connected to', 0, 0)
+        oled.text('SSID: ' + wifi_config.ssid, 0, 10)
+        oled.text('IP: ' + ip, 0, 20)
         oled.show()
 
 
